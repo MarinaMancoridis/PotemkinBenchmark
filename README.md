@@ -113,3 +113,7 @@ To reproduce the first column of **Table 2** (incoherence rates by model), run 
 ```bash
 cd Incoherence && python -c "from incoherence_rates import print_incoherence_by_model; print_incoherence_by_model()"
 ```
+
+### Reproducing Table 2
+
+To emit the LaTeX for all of **Table 2**, run `python table_2.py` from the repository's root; this script recomputes the incoherence column and uses the published, hard-coded potemkin lower-bound values, which are produced on the fly by the Automatic Evaluation procedure above.
